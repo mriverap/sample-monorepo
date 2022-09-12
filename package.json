@@ -1,0 +1,10 @@
+{
+    "name": "sample-monorepo",
+    "private": true,
+    "workspaces": {
+      "packages": [
+        "packages/*"
+      ],
+      "nohoist": []
+    }
+  }
